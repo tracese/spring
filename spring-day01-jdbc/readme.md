@@ -22,6 +22,7 @@
         </dependency>
     </dependencies>
 ```
+
 <h4>编写程序</h4>
 
 ```
@@ -33,7 +34,8 @@ public class JdbcDemo {
         //运行期耦合
         Class.forName("com.mysql.jdbc.Driver");
         //获取连接
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/eesy?useUnicode=true&characterEncoding=utf-8&useSSL=false","root","123456");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/eesy?
+                                                        useUnicode=true&characterEncoding=utf-8&useSSL=false","root","123456");
         //获取操作数据库的预处理对象
         PreparedStatement preparedStatement = conn.prepareStatement("select * from account");
         //执行SQL语句，得到结果集
