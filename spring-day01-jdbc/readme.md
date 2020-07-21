@@ -23,6 +23,7 @@
     </dependencies>
 ```
 <h4>编写程序</h4>
+
 ```
 public class JdbcDemo {
     public static void main(String[] args) throws Exception{
