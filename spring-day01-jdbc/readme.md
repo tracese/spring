@@ -13,7 +13,7 @@
 
 <h4>Jdbc连接数据库的步骤</h4>
 <h4>导入依赖</h4>
-```xml
+```
 <dependencies>
         <dependency>
             <groupId>mysql</groupId>
@@ -23,7 +23,7 @@
     </dependencies>
 ```
 <h4>编写程序</h4>
-```java
+```
 public class JdbcDemo {
     public static void main(String[] args) throws Exception{
         //注册驱动
