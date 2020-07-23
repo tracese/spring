@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 public class JdbcDemo {
     public static void main(String[] args) throws Exception{
         //注册驱动
-        //编译器耦合
+        //编译期耦合
         //DriverManager.registerDriver(new com.mysql.jdbc.Driver());
         //运行期耦合
         Class.forName("com.mysql.jdbc.Driver");

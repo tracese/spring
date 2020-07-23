@@ -1,0 +1,12 @@
+#person:
+#  name: zhangsan
+#  age: 20
+#  boss: true
+#  birth: 2020/1/1
+#  maps: {k1: v1,k2: v2}
+#  lists: ['zs','ls','ww']
+#  dog:
+#    name: little_dog
+#    age: 2
+
+

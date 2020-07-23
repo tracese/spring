@@ -1,0 +1,13 @@
+#person:
+#  lastName: zhangsan
+#  age: 20
+#  boss: false
+#  birth: 2020/04/03
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    - lisi
+#    - wangwu
+#    - zhaoliu
+#  dog:
+#    name: 小狗
+#    age: 2

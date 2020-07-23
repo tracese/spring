@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--导入thymeleaf的名称空间-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>成功！</p>
+<!--th:text 将div里面的内容设置为指定的信息-->
+<div th:text="${hello}">这里显示欢迎信息</div>
+<div th:utext="${hello}"></div>
+<hr/>
+<h4 th:text="user" th:each="user:${users}"></h4>
+<hr/>
+<h4><span th:each="user:${users}">[[${user}]]</span></h4>
+</body>
+</html>
