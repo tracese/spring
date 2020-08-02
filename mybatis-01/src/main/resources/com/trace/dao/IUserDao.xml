@@ -1,0 +1,9 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace是Dao的全限定类名-->
+<mapper namespace="com.trace.dao.IUserDao">
+    <select id="findAll" resultType="com.trace.domain.User">
+        select * from user
+    </select>
+</mapper>
